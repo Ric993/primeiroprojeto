@@ -1,0 +1,33 @@
+header {
+    position: fixed; /* Mantém o cabeçalho fixo no topo */
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 1);
+    transition: background 0.3s ease;
+    z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
+    border-radius: 10px;
+    margin: 10px 10px auto;
+    box-shadow: 10px 10px 20px black;
+}
+
+#logo {
+    text-align: center; /* Centraliza o logo abaixo do menu */
+    margin-top: 70px; /* Adiciona espaço acima do logo para não sobrepor o menu */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do logo */
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font: 15px arial;
+}

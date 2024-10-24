@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RicPlay</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="img/icon.png">
+</head>
+<body>
+    <header id="menu">
+        <nav>
+            <ul>
+                <li><a href="home.html">Início</a></li>
+                <li><a href="news.html">Notícias</a></li>
+                <li><a href="video.html">Vídeos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+
+    <main>
+        <div id="logo">
+            <a href="https://www.youtube.com/@ricplay3438" target="_blank">
+                <img src="img/Capa do video.png" name="RicPlay" width="900px">
+            </a>
+        </div>
+
+        <section>
+            <br>
+            <h1>Gameplays</h1>
+
+            <!-- Vídeo 1 -->
+            <h2>Aquele jogo dos boneco maluco!</h2>
+            <p>
+                <iframe src="https://www.youtube.com/embed/07wLxT9Nu3g" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                </iframe>
+            </p>
+            <div class="comentarios" id="comentarios-1"></div>
+            <textarea rows="4" cols="80" placeholder="Escreva um comentário..." id="input-comentario-1"></textarea>
+            <button onclick="adicionarComentario(1)">Comentar</button>
+            <hr>
+
+            <!-- Vídeo 2 -->
+            <h2>Uma zoeira leve no cod WW2</h2>
+            <p>
+                <iframe src="https://www.youtube.com/embed/lsvc6VlpIy8" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                </iframe>
+            </p>
+            <div class="comentarios" id="comentarios-2"></div>
+            <textarea rows="4" cols="80" placeholder="Escreva um comentário..." id="input-comentario-2"></textarea>
+            <button onclick="adicionarComentario(2)">Comentar</button>
+            <hr>
+
+            <!-- Vídeo 3 -->
+            <h2>2 maluco no GTAV</h2>
+            <p>
+                <iframe src="https://www.youtube.com/embed/y5CkSR6pasQ" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                </iframe>
+            </p>
+            <div class="comentarios" id="comentarios-3"></div>
+            <textarea rows="4" cols="80" placeholder="Escreva um comentário..." id="input-comentario-3"></textarea>
+            <button onclick="adicionarComentario(3)">Comentar</button>
+            <hr>
+
+            <!-- Vídeo 4 -->
+            <h2>Uma partida no Overwatch</h2>
+            <p>
+                <iframe src="https://www.youtube.com/embed/E-xJyyLm0AQ" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                </iframe>
+            </p>
+            <div class="comentarios" id="comentarios-4"></div>
+            <textarea rows="4" cols="80" placeholder="Escreva um comentário..." id="input-comentario-4"></textarea>
+            <button onclick="adicionarComentario(4)">Comentar</button>
+            <hr>
+        </section>
+
+        <footer>
+            <p>&copy;RicPlay</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

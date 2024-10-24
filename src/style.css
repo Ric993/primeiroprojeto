@@ -1,0 +1,100 @@
+main {
+    margin-top: 150px; /* Ajuste conforme necessário para não ficar atrás do menu e do logo */
+}
+
+body {
+    background-image: url(img/Capa\ do\ video.jpg);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 1);
+    transition: background 0.3s ease;
+    z-index: 1000;
+    border-radius: 10px;
+    margin: 10px 10px auto;
+    box-shadow: 10px 10px 20px black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font: 15px arial;
+}
+
+header.transparent {
+    background: rgba(255, 255, 255, 0);
+}
+
+header:hover {
+    background: rgba(255, 255, 255, 1);
+}
+
+div#logo {
+    width: 50%;
+    margin: auto;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.comentarios {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.comentarios p {
+    margin: 5px 0; /* Diminui a margem entre os comentários */
+}
+
+footer {
+    color: black;
+    background-color: white;
+    font: 20px arial bold;
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+    width: 100px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 20% auto;
+    aspect-ratio: 16 / 9;
+    background-color: #000;
+
+}
+
+p {
+    max-width: 90%;
+    margin: 10%;
+}
